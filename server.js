@@ -26,7 +26,6 @@ app.get('/', (req, res) => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Tabuada do ${numero}</title>
-            <!-- Link para o arquivo CSS externo -->
             <link rel="stylesheet" href="style.css">
         </head>
         <body>
