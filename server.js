@@ -1,4 +1,3 @@
-
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -42,6 +41,24 @@ app.get('/', (req, res) => {
                 {
                     color: #ff6347;
                     text-shadow: 2px 2px 4px #000;
+                }
+                
+                p 
+                {
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: #444;
+                }
+
+
+                .container 
+                {
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    display: inline-block;
+                    margin-top: 20px;
                 }
             </style>
             
