@@ -27,6 +27,24 @@ app.get('/', (req, res) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Tabuada do ${numero}</title>
             <link rel="stylesheet" href="style.css">
+            <style>
+                  body 
+                  {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f9;
+                    color: #333;
+                    text-align: center;
+                    padding: 20px;
+                  }
+
+
+                h1 
+                {
+                    color: #ff6347;
+                    text-shadow: 2px 2px 4px #000;
+                }
+            </style>
+            
         </head>
         <body>
             <h1>Tabuada do ${numero}</h1>
